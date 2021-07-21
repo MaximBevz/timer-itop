@@ -1,0 +1,30 @@
+.app-btn {
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s all;
+
+  &:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &-start {
+    background-color: lightgreen;
+  }
+
+  &-wait {
+    background-color: orange;
+  }
+
+  &-reset {
+    background-color: crimson;
+  }
+}
